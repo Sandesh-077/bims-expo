@@ -3,7 +3,7 @@ import bimsLogo from "/assets/bimsLogo.png";
 
 function App() {
   return (
-    <div className="relative min-h-screen bg-linear-to-br from-slate-950 via-slate-900 to-cyan-950 text-white overflow-hidden">
+    <div className="relative min-h-screen bg-linear-to-br from-slate-950 via-slate-900 to-cyan-950 text-white overflow-hidden page-load">
       {/* DECORATIVE GLOW  COULD BE THOUGHT OF ADDING LATER*/}
       {/* <div
         className="absolute top-24 left-1/2 -translate-x-1/2
@@ -41,11 +41,11 @@ function App() {
       <section className="flex flex-col items-center text-center mt-24 px-6">
         <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
           Build the Future with
-          <span className="text-cyan-400"> BIMS</span>
+          <span className="text-cyan-400"> <span className="text-[#129DCC]">B</span><span className="text-[#84C219]">I</span><span className="text-[#F68501]">M</span><span className="text-[#E42328]">S</span></span>
         </h1>
 
         <p className="mt-6 text-2xl font-semibold text-gray-300 max-w-3xl">
-          Business. IT. Mathematics. Science.
+          <span className="text-[#129DCC]">B</span>usiness. <span className="text-[#84C219]">I</span>T. <span className="text-[#F68501]">M</span>athematics. <span className="text-[#E42328]">S</span>cience.
         </p>
 
         <p className="mt-2 text-gray-300 max-w-3xl">
